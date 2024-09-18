@@ -1,12 +1,33 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello, World!</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-      <h1 class="title">Hello World! </h1>
-      <p id="currentTime"></p>
-      <script src="script.js"></script>
-  </body>
-</html>
+body {
+  background-color: black;
+}
+
+#pacman {
+  height: 470px;
+  width: 382px;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+#shim {
+  font-family: 'Permanent Marker', cursive;
+  position: absolute;
+  visibility: hidden
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  color: yellow;
+}
+
+body {
+  width: 342px;
+  margin: 0px auto;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #0000FF;
+}
